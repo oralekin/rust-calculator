@@ -1,7 +1,3 @@
-// TODO: remove these
-#![allow(dead_code)]
-#![allow(unused_variables)]
-
 use std::{
     fmt,
     io::{self, Write},
@@ -12,7 +8,9 @@ pub const ORDS: [&str; 5] = ["first", "second", "third", "fourth", "fifth"];
 enum ArgsLength {
     Constant(u32),
     AtLeast(u32),
+    #[allow(dead_code)]
     AtMost(u32),
+    #[allow(dead_code)]
     AtLeastAtMost(u32, u32),
 }
 
