@@ -1,5 +1,5 @@
 [package]
-name = "rust-calculators"
+name = "rust-calculator"
 version = "1.0.0"
 authors = ["oralekin <oralekin@gmail.com>"]
 edition = "2021"
